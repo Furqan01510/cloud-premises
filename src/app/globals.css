@@ -16,6 +16,29 @@
   }
 }
 
+@font-face {
+  font-family: "MyFont";
+  src: url("../../public/assets/fonts/SchibstedGrotesk-Regular.ttf")
+    format("tff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../public/assets/fonts/SchibstedGrotesk-SemiBold.ttf")
+    format("tff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../public/assets/fonts/SchibstedGrotesk-Bold.ttf") format("tff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +53,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.cloud_premises {
+  font-family: "MyFont", sans-serif !important;
+  font-weight: 700 !important;
 }
