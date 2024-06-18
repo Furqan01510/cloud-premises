@@ -2,8 +2,6 @@ import Image from "next/image";
 import Logo from '@/../public/assets/images/cloud.png'
 import Development from '@/../public/assets/images/development.svg'
 
-
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -18,15 +16,15 @@ export default function Home() {
         <div className="z-[100] flex flex-col items-center gap-6">
           <div className="flex flex-col items-center gap-0">
             <Image src={Logo} alt='Cloud-Premises-logo' height='50' />
-            <span className="font-bold capitalize text-3xl text-blue-700 cloud_premises">cloud premises</span>
+            <span className="font-bold capitalize text-blue-700 cloud_premises text-lg">cloud premises</span>
           </div>
           <div className="flex flex-col items-center gap-5">
             <span>
               <Image src={Development} alt="Development-Image" height='150' />
             </span>
             <div className="flex flex-col items-center">
-              <h1 className="font-semibold text-2xl">Opps! This Site is Under Maintenance.</h1>
-              <p className="font-light text-xl">by Furqan Mohammed</p>
+              <h1 className="font-semibold text-lg">Opps! This Site is Under Maintenance.</h1>
+              <p className="font-light text-lg">by Furqan Mohammed</p>
             </div>
           </div>
         </div>
