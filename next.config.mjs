@@ -1,11 +1,15 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
-  basePath: isProd ? '/cloud-premises/' : '',
-  assetPrefix: isProd ? '/cloud-premises/' : '',
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   images: {
     unoptimized: true,
+  },
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
   },
 };
 
