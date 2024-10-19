@@ -24,7 +24,7 @@ export default function Home() {
             </span>
             <div className="flex flex-col items-center">
               <h1 className="font-semibold text-lg">Opps! This Site is Under Maintenance.</h1>
-              <p className="font-light text-lg">by Furqan Mohammed</p>
+              {/* <p className="font-light text-lg">by Furqan Mohammed</p> */}
             </div>
           </div>
         </div>
